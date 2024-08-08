@@ -2,3 +2,4 @@ Flask
 langchain
 openai==0.28
 pypdf
+pandas
