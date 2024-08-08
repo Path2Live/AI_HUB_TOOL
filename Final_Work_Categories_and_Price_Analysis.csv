@@ -1,0 +1,222 @@
+category,sub-category,Unit,average_price,range_price,project_1,project_2,project_3,project_4,project_5,project_6,project_7,project_8,project_9,project_10,project_11,project_12
+Demolition,Allowance for demolition,m2,61.69545454545455,45.88-75.68,65.17,67.31,67.31,68.64,53.07,51.39,57.13,51.39,45.88,75.68,75.68,not used
+Demolition,Allowance for demolition of decking,m2,53.07,53.07-53.07,53.07,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Demolition,Allowance for demolition of outbuilding,item,1538.43,1538.43-1538.43,1538.43,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Demolition,Allowance for hacking of existing external render,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Demolition,Allowance for strip out,m2,21.546363636363637,16.02-26.43,22.76,23.51,23.51,23.97,18.53,17.95,19.95,17.95,16.02,26.43,26.43,not used
+Demolition,Allowance for strip out - external,m2,18.985000000000003,16.02-23.51,23.51,18.53,17.95,19.95,17.95,16.02,not used,not used,not used,not used,not used,not used
+Demolition,Allowance for strip out - monoblock,m2,53.07,53.07-53.07,53.07,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for underground drainage,m2,52.5025,42.28-80.4,53.62,55.38,55.38,43.67,42.28,47.01,42.28,80.4,not used,not used,not used,not used
+Substructure,Allowance for 150mm concrete slab,m3,281.0,281.0-281.0,281.0,281.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for substructure block/brickwork,m,249.6375,211.04-276.44,276.44,276.44,211.04,234.63,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,"Allowance for screed, DPM and insulation",m2,165.575,132.51-194.4,188.21,194.4,194.4,153.26,148.41,165.0,148.41,132.51,not used,not used,not used,not used
+Substructure,Allowance for retaining wall,m,1334.21,1334.21-1334.21,1334.21,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for RC Slab - 150mm,m3,214.53,214.53-214.53,214.53,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for excavation,m3,88.076,69.91-102.56,102.56,102.56,78.3,87.05,69.91,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for wide strip foundation,m,271.886,215.8-316.6,316.6,316.6,241.7,268.73,215.8,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for RC Slab,m3,244.68,244.68-244.68,244.68,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for Beam & Block,m2,84.9,84.9-84.9,84.9,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Substructure,Allowance for lift pit,item,5256.0,5256.0-5256.0,5256.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Block Wall Construction,m2,106.9357142857143,84.33-123.72,119.78,123.72,123.72,97.54,94.45,105.01,84.33,not used,not used,not used,not used,not used
+Superstructure,Allowance for Padstones,no,197.66714285714286,172.26-225.64,218.45,225.64,225.64,177.9,172.26,191.52,172.26,not used,not used,not used,not used,not used
+Superstructure,Allowance for Insulation,m2,67.987,51.73-85.33,73.48,75.9,75.9,77.39,59.84,57.94,64.42,57.94,51.73,85.33,not used,not used
+Superstructure,Allowance for Lintels,m,149.55999999999997,115.35-172.57,163.84,169.23,169.23,172.57,133.42,143.64,129.2,115.35,not used,not used,not used,not used
+Superstructure,Allowance for Steel,tn,4425.371666666667,3836.7-5025.54,4865.54,5025.54,5025.54,3962.21,3836.7,3836.7,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Timber Boarding,m2,22.86,18.01-26.52,24.05,18.01,26.52,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Timber Frame Construction,m2,130.31,130.31-130.31,130.31,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Timber Frame Construction - Floors,m2,132.88,132.88-132.88,132.88,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Timber Frame Construction - Walls,m2,132.88,132.88-132.88,132.88,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Timber Frame Construction; adaptations,m2,111.60000000000001,88.82-146.5,99.48,88.82,146.5,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,EO for Cladding Finish,m2,77.8,77.8-77.8,77.8,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,EO for Cladding Finish - Metal Finish,m2,130.73,130.73-130.73,130.73,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,Allowance for Brick Wall Construction,m2,261.19,261.19-261.19,261.19,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Superstructure,EO for Fire Protection,tn,486.7916666666667,422.04-552.81,535.21,552.81,552.81,435.84,422.04,422.04,not used,not used,not used,not used,not used,not used
+Superstructure,EO for Render Finish,m2,56.47,45.44-66.67,66.67,66.67,52.56,50.9,56.58,45.44,not used,not used,not used,not used,not used,not used
+Roof, - Allowance for Flashing,item,1747.73,1747.73-1747.73,1747.73,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,EO for Large,no,1836.06,1566.0-2051.24,1985.93,2051.24,1566.0,1741.07,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Steel,tn,5377.3725,5064.13-5880.79,5064.13,5230.66,5333.91,5880.79,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Rooflights,no,1756.52875,1293.32-2133.23,1836.99,1897.4,1897.4,1934.85,1448.55,1610.49,1293.32,2133.23,not used,not used,not used,not used
+Roof,Allowance for Roof Lantern,item,7302.0,7302.0-7302.0,7302.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Rainwater Drainage,item,2003.2588888888886,587.25-3076.86,2482.42,1538.43,3076.86,2091.73,2021.54,1957.5,2176.33,587.25,2097.27,not used,not used,not used
+Roof,EO for Fire Protection,tn,591.51,557.05-646.89,557.05,575.37,586.73,646.89,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Pitched Roof Construction,m2,329.81,321.25-338.37,321.25,338.37,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Padstones,no,230.09,230.09-230.09,230.09,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Flat Roof Construction,m2,261.7957142857143,204.71-306.25,300.32,300.32,306.25,236.78,229.28,254.91,204.71,not used,not used,not used,not used,not used
+Roof,Allowance for Flashing,item,2316.31625,769.22-4615.29,1985.93,769.22,4615.29,2876.13,1212.92,2153.25,2611.6,2306.19,not used,not used,not used,not used
+Roof,Allowance for Pitched Roof Construction; adaptations,m2,115.31,115.31-115.31,115.31,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Roof,Allowance for Cabrio Rooflights,no,3220.0,3220.0-3220.0,3220.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, - Allowance for Virtually Frameless 20mm interlock Sliding Door System 3 panels,item,7299.37,7299.37-7299.37,7299.37,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Double Timber Panel Pocket Doors,no,2998.05,2998.05-2998.05,2998.05,2998.05,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Double Timber Panel Doors,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Bi-fold Doors,item,12307.45,12307.45-12307.45,12307.45,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Alumnium Windows,m2,1082.1666666666667,743.85-1411.92,1384.59,1411.92,1091.63,743.85,1057.05,803.96,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Alumnium Oriel Windows,m2,1794.84,1794.84-1794.84,1794.84,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Aluminium Sliding Door,no,4102.48,4102.48-4102.48,4102.48,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Double Timber Panel Doors,no,934.74,934.74-934.74,934.74,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Aluminium Door,no,1708.7,1398.18-2051.24,2051.24,1819.38,1566.0,1398.18,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, Ground Floor - Allowance for Double Timber Panel Pocket Doors,no,2998.05,2998.05-2998.05,2998.05,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Double Timber Panel and Glass Doors,no,822.15,822.15-822.15,822.15,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, - Allowance for Alumnium Windows,m2,827.01,827.01-827.01,827.01,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Glazed Crittal Style Window/Door (Steel Fire Rated),item,8500.0,8500.0-8500.0,8500.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Ironmongery,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Ironmongery,no,145.37800000000001,104.86-172.96,153.84,153.84,156.88,117.45,130.58,117.45,104.86,172.96,172.96,172.96,not used,not used
+External Windows and Doors,Allowance for Single Timber & Glass Panel Doors,no,565.85,565.85-565.85,565.85,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Panel Doors,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Panel Doors,m2,358.97,358.97-358.97,358.97,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Panel Doors,no,341.0675,244.68-403.58,358.97,366.05,274.05,274.05,244.68,403.58,403.58,403.58,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Panel Pocket Doors,no,1499.03,1499.03-1499.03,1499.03,1499.03,1499.03,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Pocket Door,no,1175.22,1175.22-1175.22,1175.22,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Single Timber Pocket Doors,no,1013.68,1013.68-1013.68,1013.68,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Sliding Doors,item,5640.91,5640.91-5640.91,5640.91,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for UPVC Door,item,1737.69,1737.69-1737.69,1737.69,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for UPVC Door,no,1794.84,1794.84-1794.84,1794.84,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for UPVC Windows,m2,988.0,988.0-988.0,988.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Virtually Frameless 20mm interlock Sliding Door System 2 panels,item,4866.24,4866.24-4866.24,4866.24,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Allowance for Virtually Frameless 20mm interlock Sliding Door System 3 panels,item,9441.02,9441.02-9441.02,9441.02,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,EO for Virtually Frameless Glass Balustrade,item,2039.44,2039.44-2039.44,2039.44,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors,Virtually Frameless Glass Balustrade,item,2142.83,2142.83-2142.83,2142.83,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, - Allowance for Aluminium Door,no,1566.0,1566.0-1566.0,1566.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, - Allowance for Bi-fold Doors,item,14000.0,14000.0-14000.0,14000.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+External Windows and Doors, - Allowance for Sliding Door,item,6500.0,6500.0-6500.0,6500.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Partitions,Allowance for Insulation,m2,63.290000000000006,45.44-74.95,64.54,66.67,66.67,67.98,52.56,56.58,50.9,45.44,74.95,74.95,74.95,not used
+Partitions,Allowance for plasterboard,m2,16.177272727272726,11.88-19.6,16.88,17.44,17.78,13.75,13.31,14.8,13.31,11.88,19.6,19.6,19.6,not used
+Partitions,Allowance for new timber partitions,m2,100.69818181818181,72.3-119.25,102.69,106.07,106.07,108.16,83.63,90.03,80.98,72.3,119.25,119.25,119.25,not used
+Partitions, - Allowance for plasterboard, m2,17.44,17.44-17.44,17.44,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Partitions,Allowance for skim finish,m2,17.718333333333334,12.93-21.33,18.37,18.97,18.97,19.35,14.96,14.49,16.1,14.49,12.93,21.33,21.33,21.33
+Electrical,Allowance for new First Fix,no,40.22833333333333,29.36-48.43,41.7,43.08,43.08,43.93,33.96,32.89,36.56,32.89,29.36,48.43,48.43,48.43
+Electrical,Allowance for upgrading existing supply,item,504.645,496.48-512.81,496.48,512.81,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Electrical,Allowance for upgrading existing First Fix,no,19.51,14.33-23.64,20.36,21.03,21.44,16.58,16.05,17.85,16.05,14.33,23.64,23.64,23.64,not used
+Electrical,Allowance for upgrading electrical supply,item,535.4366666666667,391.5-943.77,522.93,404.31,391.5,435.27,391.5,943.77,576.55,576.55,576.55,not used,not used,not used
+Electrical,Allowance for updating electrical supply,item,512.81,512.81-512.81,512.81,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Electrical,Allowance for installation - Second fix,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Electrical,EO for 3 Phase,item,3234.46,3234.46-3234.46,3234.46,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Electrical,Allowance for electrical supply,no,35.0,35.0-35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0,not used,not used
+Electrical,Allowance for electrical supply,excl.,0.0,0.0-0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Electrical,Allowance for Testing,%,8261.881666666668,1924.44-18595.57,2348.37,7524.31,8495.42,10779.34,7443.37,9555.8,6749.87,8917.58,18595.57,1924.44,6855.58,9952.93
+Electrical,Allowance for BWIC,%,8261.881666666668,1924.44-18595.57,2348.37,7524.31,8495.42,10779.34,7443.37,9555.8,6749.87,8917.58,18595.57,1924.44,6855.58,9952.93
+Electrical,Allowance for installation - Second fix,no,52.779090909090904,38.65-63.75,56.71,56.71,57.83,44.71,43.29,48.13,43.29,38.65,63.75,63.75,63.75,not used
+Mechanical,Allowance for BWIC,%,7340.413636363636,1291.95-14943.61,8340.92,9845.96,7262.69,4819.93,14943.61,1291.95,5294.52,4358.4,12720.42,7345.62,4520.53,not used
+Mechanical,Allowance for UFH,excl.,0.0,0.0-0.0,0.0,0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used
+Mechanical, - Allowance for new First Fix Piperwork, no,347.54,347.54-347.54,347.54,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical, - Basic Steel Radiator,no,180.0,180.0-180.0,180.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for EUFH,m2,120.27,120.27-120.27,120.27,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for UFH,m2,133.42,133.42-133.42,133.42,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for Testing,%,7340.413636363636,1291.95-14943.61,8340.92,9845.96,7262.69,4819.93,14943.61,1291.95,5294.52,4358.4,12720.42,7345.62,4520.53,not used
+Mechanical,Allowance for upgrading existing water,item,756.97,744.72-769.22,744.72,769.22,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for upgrading existing gas,item,756.97,744.72-769.22,744.72,769.22,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for supply and install of new low temp heating system,item,3688.3866666666668,3495.46-3846.08,3723.62,3846.08,3495.46,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for supply and install of new low temp heating system,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for radiators,no,170.625,150.0-315.0,150.0,315.0,150.0,150.0,150.0,150.0,150.0,150.0,not used,not used,not used,not used
+Mechanical,Allowance for radiators,excl.,75.0,0.0-150.0,0.0,150.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for new water water,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for new water service,excl.,0.0,0.0-0.0,0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for new gas service,item,1048.64,1048.64-1048.64,1048.64,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for new gas service,excl.,0.0,0.0-0.0,0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for new First Fix Piperwork,no,327.164,244.68-403.58,358.97,358.97,366.05,283.02,274.05,304.69,274.05,244.68,403.58,403.58,not used,not used
+Mechanical,Allowance for moving existing boiler,item,391.5,391.5-391.5,391.5,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for installation of client supply - Second Fix,no,139.417,104.86-172.96,148.94,153.84,153.84,121.29,117.45,130.58,117.45,104.86,172.96,172.96,not used,not used
+Mechanical,Allowance for installation of Second Fix,no,156.88,156.88-156.88,156.88,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for UFH - Electric,m2,100.11,100.11-100.11,100.11,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+Mechanical,Allowance for Log Burner and associated works,excl.,0.0,0.0-0.0,0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used
+Preliminaries,Allowance for Contractor Prelims,%,143425.077,78433.03-260081.75,90172.98,78433.03,182639.17,138720.25,260081.75,92819.58,110037.78,86942.15,185647.55,208756.53,not used,not used
+, - Allowance for dulux to skirting and architraves, m2,13.98,13.98-13.98,13.98,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for supply of tile - Ensuite,m2,16.0,16.0-16.0,16.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for supply of tile - Shower Room, m2,16.0,16.0-16.0,16.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for waterproofing - WC, m2,19.58,19.58-19.58,19.58,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for waterproofing - WC,m2,19.58,19.58-19.58,19.58,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for waterproofing - polished plaster, m2,26.15,26.15-26.15,26.15,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for waterproofing - shower room,m2,21.76,21.76-21.76,21.76,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for dulux to skirting and architraves,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for dulux to skirting and architraves,m2,19.375,15.66-23.06,20.92,16.17,15.66,17.41,15.66,23.06,23.06,23.06,not used,not used,not used,not used
+,Allowance for dulux to walls & ceilings,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for dulux to walls & ceilings,m2,20.655555555555555,15.38-25.37,23.01,17.79,17.23,19.15,17.23,15.38,25.37,25.37,25.37,not used,not used,not used
+,Allowance for installation of client supply - Ensuite,m2,45.44,45.44-45.44,45.44,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of client supply - Shower Room,m2,45.44,45.44-45.44,45.44,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - Ensuite,m2,74.95,74.95-74.95,74.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - WC,m2,58.916666666666664,50.9-74.95,50.9,50.9,74.95,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - ensuite,m2,56.58,56.58-56.58,56.58,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - shower room,m2,56.58,56.58-56.58,56.58,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - splashback,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of tile - splashback,m2,57.12166666666666,45.44-74.95,67.98,52.56,50.9,50.9,45.44,74.95,not used,not used,not used,not used,not used,not used
+,Allowance for supply and install or polished plaster,m2,150.0,150.0-150.0,150.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - Ensuite,m2,49.0,49.0-49.0,49.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - WC,m2,27.0,16.0-49.0,16.0,16.0,49.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - ensuite,m2,49.8,49.8-49.8,49.8,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - shower room,m2,49.8,49.8-49.8,49.8,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - splashback,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - splashback,m2,23.166666666666668,16.0-59.0,59.0,16.0,16.0,16.0,16.0,16.0,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - Ensuite,m2,23.155,17.48-28.83,17.48,28.83,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - Shower Room,m2,17.48,17.48-17.48,17.48,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - WC,m2,28.83,28.83-28.83,28.83,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - ensuite,m2,21.76,21.76-21.76,21.76,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - splashback,m2,26.15,26.15-26.15,26.15,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+, - Allowance for new fence to the rear, PS,1617.23,1617.23-1617.23,1617.23,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for cleaning and re-pointing of existing brickwork,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for cleaning and re-pointing of existing brickwork,item,2740.5,2740.5-2740.5,2740.5,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for external decking,excl.,0.0,0.0-0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for external decking,m2,95.3475,80.4-117.95,117.95,92.99,90.05,80.4,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new balustrade,item,1566.0,1566.0-1566.0,1566.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new stairs,item,3132.0,3132.0-3132.0,3132.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for permeable gravel driveway,m2,95.0,95.0-95.0,95.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for planters,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for planters,item,783.0,783.0-783.0,783.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for platform,m2,50.9,50.9-50.9,50.9,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for repairs to existing render,PS,2638.485,2446.82-2830.15,2830.15,2446.82,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for soft landscaping,PS,5500.0,5500.0-5500.0,5500.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation - tile,m2,45.44,45.44-45.44,45.44,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of client supply - Ensuite,m2,74.95,74.95-74.95,74.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of client supply - WC,m2,74.95,74.95-74.95,74.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of client supply - tile,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of client supply - tile,m2,62.28,56.58-67.98,67.98,56.58,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of lino,m2,19.093333333333334,17.48-20.22,20.22,19.58,17.48,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of timber,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of timber,m2,68.89500000000001,65.25-72.54,72.54,65.25,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of timber - hallway,m2,96.09,96.09-96.09,96.09,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of timber - landings/bedrooms,m2,96.09,96.09-96.09,96.09,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for installation of timber - landings/bedrooms/office,m2,96.09,96.09-96.09,96.09,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of lino,m2,13.323333333333332,7.99-23.99,23.99,7.99,7.99,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile,m2,51.05666666666667,37.17-59.0,59.0,37.17,57.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - Ensuite,m2,49.0,49.0-49.0,49.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of tile - WC,m2,49.0,49.0-49.0,49.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of timber,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of timber,m2,83.63333333333333,67.95-115.0,115.0,67.95,67.95,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of timber - hallway,m2,67.95,67.95-67.95,67.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of timber - landings/bedrooms/office, m2,67.95,67.95-67.95,67.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for supply of timber - landings/bedrooms/office,m2,67.95,67.95-67.95,67.95,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - Ensuite,m2,28.83,28.83-28.83,28.83,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - WC,m2,28.83,28.83-28.83,28.83,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - tile,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for waterproofing - tile,m2,21.796666666666667,17.48-26.15,26.15,21.76,17.48,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Bespoke Joinery,m,1538.0,1538.0-1538.0,1538.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for bespoke joinery,item,10000.0,10000.0-10000.0,10000.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for bespoke joinery - dressing room,m,3917.4,3917.4-3917.4,3917.4,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for bespoke joinery - stairs,m,1915.17,1915.17-1915.17,1915.17,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new architraves,excl.,11.28,0.0-22.56,0.0,22.56,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new architraves,m,21.185555555555553,15.38-25.37,22.56,23.01,17.23,19.15,17.23,15.38,25.37,25.37,25.37,not used,not used,not used
+,Allowance for new skirting boards,excl.,16.24,0.0-32.48,0.0,32.48,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new skirting boards,m,30.008,22.14-36.52,32.48,33.12,25.61,24.8,27.57,24.8,22.14,36.52,36.52,36.52,not used,not used
+,Allowance for Installation - Ensuite,item,2380.8666666666663,1824.2-2693.2,1824.2,2693.2,2625.2,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Installation - Ensuite/Shower Room,item,1744.0,1744.0-1744.0,1744.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Installation - WC,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Installation - WC,item,1042.1333333333334,691.2-1744.0,691.2,691.2,1744.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Installation - shower room,item,1744.0,1744.0-1744.0,1744.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply - Ensuite,item,5952.166666666667,4560.5-6733.0,4560.5,6733.0,6563.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply - Ensuite/Shower Room,item,4360.0,4360.0-4360.0,4360.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply - WC,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply - WC,item,2605.3333333333335,1728.0-4360.0,1728.0,1728.0,4360.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply - shower room,item,4360.0,4360.0-4360.0,4360.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply and Installation - Kitchen,item,17913.75,17885.0-18000.0,17885.0,18000.0,17885.0,17885.0,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for Supply and Installation - Utiility,item,6408.333333333333,3845.0-7690.0,7690.0,3845.0,7690.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for attendance to client Supply and Installation - Kitchen; assume £20k,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for attendance to client Supply and Installation - Utility; assume £6k,excl.,0.0,0.0-0.0,0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for adaptation to balustrade,item,1566.0,1566.0-1566.0,1566.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for adaptation to stairs,item,1174.5,1174.5-1174.5,1174.5,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for lift,item,14555.07,14555.07-14555.07,14555.07,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new balustrade,excl.,0.0,0.0-0.0,0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new balustrade,item,1678.218,699.09-2091.73,2051.24,2091.73,1819.38,699.09,1729.65,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new ramp,item,6064.61,6064.61-6064.61,6064.61,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new stairs,item,4414.1325,3145.91-5188.94,4615.29,4706.39,3145.91,5188.94,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for new stairs (concrete),item,5256.0,5256.0-5256.0,5256.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for repairs,excl.,0.0,0.0-0.0,0.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used
+,Allowance for repairs,item,1000.0,1000.0-1000.0,1000.0,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used,not used

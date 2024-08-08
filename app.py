@@ -3,11 +3,13 @@ from helperclass import *
 import os
 from dotenv import load_dotenv
 from werkzeug.utils import secure_filename
+from flask_cors import CORS
 import json
 
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 app.config['ALLOWED_EXTENSIONS'] = {'pdf'}
 
@@ -51,7 +53,7 @@ def report_details():
 
         project_details = extract_project_info(project_info_payload)
         cost_info = extract_cost_info(cost_info_payload)
-        question = formulate_question(project_details, cost_info)
+        question = formulate_question(project_details, cost_info, historical_data=load_historical_data())
 
         messages = [
             {"role": "system", "content": "You are a QC and architect."},
