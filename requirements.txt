@@ -2,4 +2,7 @@ Flask
 langchain
 openai==0.28
 pypdf
+langchain-community
 pandas
+python-dotenv
+flask_cors
