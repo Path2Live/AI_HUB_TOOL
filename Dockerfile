@@ -1,25 +1,20 @@
-# Use the official Python image from the Docker Hub
+# Use an official Python runtime as a parent image
 FROM python:3.9-slim
 
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the requirements file into the container at /app
-COPY requirements.txt .
+# Copy the current directory contents into the container at /app
+COPY . /app
 
-# Install the dependencies specified in the requirements file
+# Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
-COPY . .
-
-# Set environment variables
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
-ENV OPENAI_API_KEY = "sk-my-aihub-xsqem7zSnZ6DQI7sdRnzT3BlbkFJB9vRWBeocaut9kv7oFef"
-
-# Expose the port the app runs on
+# Make port 5000 available to the world outside this container
 EXPOSE 5000
 
-# Run the application
-CMD ["flask", "run"]
+# Define environment variable
+ENV PYTHONUNBUFFERED=1
+
+# Run app.py when the container launches
+CMD ["python", "app.py"]
