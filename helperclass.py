@@ -205,7 +205,7 @@ Your final response should include the following sections:
 Important Notes:
 
     Do not use external sources; base your analysis solely on the provided information.
-    Follow the project details carefully as they outline the scope and specifics of the work to be done.
+    Follow the project details and cost Information carefully as they outline the scope and specifics of the work to be done.
     """
     return question
 
