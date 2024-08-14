@@ -145,153 +145,67 @@ def formulate_question(project_details, cost_info, historical_data):
                                 f"  Range Price: {item['range_price']}\n")
 
     question = f"""
-    The project has the following details:
-    Project details: {project_details}
-    Examine the architectural drawing documents I provided and follow these instructions:
+   Project Overview:
 
-    1. Elevations in files containing elevation:
-       - List the materials used for each elevation. Specifically, use the labels beside each material name.
+You are provided with the following project details:
 
-    2. Floor Plan in files containing floor plan:
-       - Locate the floor measurements over the drawing. Use the labels beside "scale" to get the real-life to image scale ratio, which will be followed by "@" then the paper size to show the paper size of the drawing.
-       - Calculate the area of each room, the total area, and identify any new construction (indicated by blue-colored walls).
+    Project Details: {project_details}
+    Cost Information: {cost_info}
+    Historical Data: {historical_info}
 
-    3. Roof Plan in files containing roof plan:
-       - Detect any kind of extension which will appear like a side box covered in stripes and give its area.
+Your task is to analyze the provided architectural drawings and documents, following these specific instructions:
+1. Elevations (Files Containing Elevations)
 
-    4. Feasibility Estimate in files containing Feasibility Estimate:
-       - Given the project's cost details:
-         {cost_info} if it says use AI in any sub category level this mean that based on the supplied drawings you as a bot will decied the cost of needed work based on the supplied drawing files
-       - And the historical data:
-         {historical_info}
-       - Generate a detailed cost breakdown for the new project. 
-       - The breakdown should include itemized costs for each aspect of the project, calculated based on the average prices from past projects.
+    Identify and list the materials used for each elevation (North, South, East, and West).
+    Use the labels beside each material name to ensure accuracy.
 
-      Step 2: Detailed Cost Breakdown
-        - Read and Understand Each Cost Section and its subsections:
+2. Floor Plan (Files Containing Floor Plans)
+
+    Locate the floor measurements on the drawing.
+    Use the label beside "scale" to determine the real-life to image scale ratio, followed by the paper size.
+    Calculate the area of each room, the total area of the floor plan, and identify any new construction, particularly those indicated by blue-colored walls.
+
+3. Roof Plan (Files Containing Roof Plans)
+
+    Detect any extensions (represented as side boxes covered in stripes) and calculate their area.
+
+4. Feasibility Estimate (Files Containing Feasibility Estimate)
+
+    Based on the project's cost details and historical data:
+        AI-Driven Costing: If a subcategory mentions using AI, estimate the cost of the required work based on the provided drawings.
+        Generate a detailed, itemized cost breakdown for the new project, considering average prices from past projects.
+        The breakdown should cover all major categories, including but not limited to:
             Demolition
+            Substructure
+            Superstructure
+            Roof
+            External Windows and Doors
+            Partitions
+            Electrical
+            Mechanical
+            Preliminaries
 
-    Description:
-    Demolition involves the safe and systematic dismantling of existing structures or parts of structures to make way for new construction. This can include buildings, bridges, roads, or any other man-made structures. Demolition must be planned carefully to ensure safety and efficiency, considering factors like the type of materials, structural stability, and environmental impact.
-    Substructure
-    
-    Description:
-    The substructure of a building includes all the construction elements that are below the ground level, such as foundations, basements, and underground retaining walls. Its primary purpose is to transfer the loads from the superstructure to the ground, ensuring stability and preventing settlement.
-    Superstructure
-    
-    Description:
-    The superstructure refers to all parts of a building or structure above the ground level. This includes columns, beams, floors, walls, and any architectural features. The superstructure provides the overall shape and support for the building, ensuring it can withstand various loads such as its own weight, occupants, and environmental forces.
-    Roof
-    
-    Description:
-    The roof is the top covering of a building, designed to protect the interior from weather elements like rain, snow, and sunlight. It includes the structural framework (trusses or beams), insulation, waterproofing layers, and the external covering material (tiles, shingles, metal sheets, etc.). The roof also often incorporates drainage systems to direct water away from the structure.
-    External Windows and Doors
-    
-    Description:
-    External windows and doors are openings in the building envelope that provide access, natural light, and ventilation. Windows can be fixed or operable and are made from materials like glass, wood, aluminum, or PVC. Doors serve as entry and exit points and can be made from similar materials. These elements must be designed to provide security, insulation, and aesthetics.
-    Partitions
-    
-    Description:
-    Partitions are non-load-bearing walls that divide the interior space of a building into rooms and areas. They can be made from materials such as drywall, glass, metal, or wood. Partitions are used to create functional spaces and can include soundproofing, fire resistance, and aesthetic finishes to meet specific needs.
-    Electrical
-    
-    Description:
-    The electrical system in a building encompasses all wiring, outlets, switches, lighting fixtures, and appliances. It includes the distribution of power from the main supply to various circuits within the building, ensuring all areas have access to electricity. Electrical plans must consider safety, load requirements, and efficiency.
-    Mechanical
-    
-    Description:
-    Mechanical systems in a building include HVAC (Heating, Ventilation, and Air Conditioning), plumbing, and other systems that ensure a comfortable and functional indoor environment. HVAC systems control temperature and air quality, while plumbing systems manage water supply and waste removal. Other mechanical systems might include elevators, fire protection, and gas supply.
-    Preliminaries
-    
-    Description:
-    Preliminaries are the initial tasks and requirements that need to be addressed before the actual construction begins. This includes site preparation, setting up temporary facilities like site offices, securing permits and insurance, providing temporary utilities (water, electricity), and creating access routes. Preliminaries ensure that the site is ready for construction to proceed smoothly.
-    
-    how they get calculated in real life :
-    Demolition
+Cost Calculations Methodology:
 
-    Calculations:
-    
-        Volume and Material Quantities: From structural drawings and site surveys, the volume of materials to be demolished is calculated. This includes concrete, steel, bricks, etc.
-        Labor and Equipment: Estimating the labor hours and type of machinery required for demolition (e.g., wrecking balls, excavators).
-        Disposal Costs: Costs for hauling and disposing of demolition debris are calculated based on local disposal rates.
-        Safety Measures: Costs for safety measures like barriers, signage, and PPE (personal protective equipment) are included.
-    
-    Substructure
-    
-    Calculations:
-    
-        Excavation: Volume of soil to be excavated is calculated from foundation plans.
-        Concrete and Reinforcement: Quantities of concrete and steel reinforcement are derived from the foundation layout and structural details.
-        Formwork: Area of formwork needed for concrete pouring is calculated.
-    
-    Superstructure
-    
-    Calculations:
-    
-        Structural Elements: Quantities of beams, columns, floors, and walls are taken from structural drawings.
-        Concrete, Steel, and Other Materials: Calculations are done based on dimensions provided in the drawings.
-    
-    Roof
-    
-    Calculations:
-    
-        Roof Area: Calculated from the roof plans.
-        Materials: Quantities for trusses, beams, insulation, waterproofing, and roofing materials are determined from the drawings.
-    
-    External Windows and Doors
-    
-    Calculations:
-    
-        Number and Size: Quantities are determined from elevation drawings and window/door schedules.
-        Materials: Types of windows and doors (e.g., wood, aluminum, glass) are specified.
-    
-    Partitions
-    
-    Calculations:
-    
-        Wall Area: Calculated from floor plans.
-        Materials: Quantities of drywall, studs, insulation, and finishes are determined.
-    
-    Electrical
-    
-    Calculations:
-    
-        Wiring and Fixtures: Quantities of wiring, outlets, switches, and fixtures are calculated from electrical plans.
-        Load Requirements: Ensure adequate capacity for all electrical components.
-    
-    Mechanical
-    
-    Calculations:
-    
-        HVAC Systems: Quantities of ducts, piping, and units are calculated from mechanical drawings.
-        Plumbing: Quantities of pipes, fittings, fixtures, and equipment.
-        Other Systems: Quantities for elevators, fire protection, and gas systems.
-    
-    Preliminaries
-    
-    Calculations:
-    
-        Site Preparation: Costs for site clearance, temporary fencing, and facilities.
-        Temporary Utilities: Costs for providing temporary water, electricity, and other utilities.
-        Permits and Insurance: Costs for securing necessary permits and insurance coverage.
-    
-    General Methodology for Calculation:
-    
-        Quantification: Use construction drawings, specifications, and BIM (Building Information Modeling) software to quantify materials and labor.
-        Unit Rates: Apply unit rates (cost per unit of measure) from cost databases or historical data.
-        Summation: Sum the costs for each category (materials, labor, equipment) to get the total cost.
-        Contingencies: Add a percentage for contingencies to cover unforeseen costs.
-        Overheads and Profits: Include a percentage for overheads and profits.
+    Quantification: Use construction drawings, specifications, and BIM (Building Information Modeling) software to quantify materials and labor.
+    Unit Rates: Apply unit rates (cost per unit of measure) from cost databases or historical data.
+    Summation: Sum the costs for each category (materials, labor, equipment) to arrive at the total cost.
+    Contingencies: Include a percentage for contingencies to cover unforeseen costs.
+    Overheads and Profits: Add a percentage for overheads and profits.
 
-    Provide your final answer with the following sections only:
+Final Output:
 
-    Elevations: Provide details for North, South, East, and West elevations including the materials used.
-    Floor Plan: Provide the scale of the floor plan and calculate the area of each room. Also, provide details of any new construction highlighted in blue.
-    Roof Plan: Provide details of any extensions in the roof plan.
-    Feasibility Estimate: Provide a cost estimate for the work done as the main summary and Total excl. VAT with the breakdown for (demolition, substructure, superstructure, etc.).
+Your final response should include the following sections:
 
-    Notes:
-    Don't use internet, just based on the info supplied.
+    Elevations: Detail the materials used for North, South, East, and West elevations.
+    Floor Plan: Provide the scale, area calculations for each room, total area, and details of any new construction (highlighted in blue).
+    Roof Plan: Detail any extensions identified in the roof plan.
+    Feasibility Estimate: Provide a cost estimate summary, including a breakdown of costs for demolition, substructure, superstructure, etc., and a total excluding VAT.
+
+Important Notes:
+
+    Do not use external sources; base your analysis solely on the provided information.
+    Follow the project details carefully as they outline the scope and specifics of the work to be done.
     """
     return question
 
