@@ -1,0 +1,58 @@
+Category,Qty,Unit,Rate (£),Total Cost (£)
+Demolition - Strip out (internal),85.5,m2,17.95,1534.41
+Demolition - Strip out (external),19.0,m2,17.95,340.98
+Demolition - Demolition,64.0,m2,51.39,3288.85
+Substructure - Excavation,11.4,m3,78.3,892.62
+Substructure - Wide Strip Foundation,11.0,m,241.7,2658.75
+Substructure - RC Slab (150mm),2.85,m3,214.53,611.4
+Substructure - Block/Brickwork,11.0,m,211.04,2321.46
+"Substructure - Screed, DPM, Insulation",19.0,m2,148.41,2819.79
+Substructure - Underground Drainage,10.0,m2,42.28,422.82
+Superstructure - Block Wall Construction,13.0,m2,94.45,1227.89
+Superstructure - Render Finish,13.0,m2,50.9,661.64
+Superstructure - Insulation,13.0,m2,57.94,753.25
+Superstructure - Steel,0.52,tn,3836.7,2007.99
+Superstructure - Fire Protection,0.52,tn,422.04,220.88
+Superstructure - Padstones,2.0,no,172.26,344.52
+Roof - Flat Roof Construction,14.0,m2,229.28,3209.89
+Roof - Rooflights,1.0,no,1448.55,1448.55
+Roof - Large Rooflight,1.0,no,1566.0,1566.0
+Roof - Flashing,1.0,item,2153.25,2153.25
+Roof - Rainwater Drainage,1.0,item,1957.5,1957.5
+External Windows and Doors - Aluminium Door,1.0,no,1566.0,1566.0
+External Windows and Doors - Aluminium Windows,15.5,m2,743.85,11529.68
+External Windows and Doors - Double Timber Panel Doors,1.0,no,822.15,822.15
+External Windows and Doors - Single Timber Panel Doors,2.0,no,274.05,548.1
+External Windows and Doors - Ironmongery,4.0,no,117.45,469.8
+Partitions - Plasterboard,162.0,m2,13.31,2156.38
+Partitions - Skim Finish,162.0,m2,14.49,2346.65
+Joinery - Skirting Boards,38.0,m,24.8,942.31
+Joinery - Architraves,40.0,m,17.23,689.04
+Decoration - Dulux Walls & Ceilings,317.0,m2,17.23,5460.64
+Decoration - Dulux Skirting and Architraves,78.0,m2,15.66,1221.48
+Decoration - Tile Supply (Splashback),4.0,m2,16.0,64.0
+Decoration - Tile Installation (Splashback),4.0,m2,50.9,203.58
+Decoration - Waterproofing (WC),13.0,m2,19.58,254.48
+Decoration - Tile Supply (WC),13.0,m2,16.0,208.0
+Decoration - Tile Installation (WC),13.0,m2,50.9,661.64
+Floor Finishes - Lino Supply,70.0,m2,7.99,559.3
+Floor Finishes - Lino Installation,70.0,item,19.58,1370.25
+Kitchen and Bathrooms - Kitchen Supply and Installation,1.0,item,18000.0,18000.0
+Kitchen and Bathrooms - Utility Supply and Installation,1.0,item,3845.0,3845.0
+Kitchen and Bathrooms - WC Supply,1.0,item,1728.0,1728.0
+Kitchen and Bathrooms - WC Installation,1.0,no,691.2,691.2
+Electrical - Upgrading Electrical Supply,50.0,no,391.5,391.5
+Electrical - Upgrading First Fix,40.0,no,16.05,802.58
+Electrical - New First Fix,90.0,no,32.89,1315.44
+Electrical - Electrical Supply,90.0,%,35.0,3150.0
+Electrical - Second Fix Installation,7.5,%,43.29,3896.29
+Electrical - BWIC,5.0,excl.,716.69,716.69
+Electrical - Testing,0.0,excl.,477.79,477.79
+Mechanical - Gas Service,0.0,item,0.0,0.0
+Mechanical - Water Service,1.0,no,0.0,0.0
+Mechanical - Boiler Relocation,2.0,no,391.5,391.5
+Mechanical - New First Fix Pipework,3.0,%,274.05,548.1
+Mechanical - Second Fix Installation,7.5,%,117.45,352.35
+Mechanical - BWIC,5.0,%,96.9,96.9
+Mechanical - Testing,9.0,excl.,64.6,64.6
+Preliminaries - Contractor Prelims,0.0,excl.,8353.76,8353.76
