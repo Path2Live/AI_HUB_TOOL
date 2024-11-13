@@ -1,5 +1,5 @@
-from langchain.document_loaders import PyPDFLoader
-from langchain.llms import OpenAI
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.llms import OpenAI
 from openai import ChatCompletion
 import pandas as pd
 import os
