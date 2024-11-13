@@ -94,6 +94,7 @@ def formulate_question(project_details, cost_info, historical_data):
     2- give the total of them all 
     3-don't pass 110K in your approximation 
     4- dont reply with any other words around your answer
+    5-start your reply with "according to the estimations"
      
     """
     print(question)
