@@ -1,6 +1,6 @@
 Flask
-langchain
-openai==0.28
+langchain-community>=0.2.0
+langchain-openai>=0.2.0
 pypdf
 langchain-community
 pandas
