@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import PyPDFLoader
-from langchain_community.llms import OpenAI
-from openai import ChatCompletion
+from langchain_openai import OpenAI
+import openai
 import pandas as pd
 import os
 
@@ -68,7 +68,8 @@ def setup_llm(api_key):
     Returns:
         OpenAI: Configured language model.
     """
-    return OpenAI(model='gpt-4o-2024-05-13', openai_api_key=api_key)
+    openai.api_key = api_key
+    return OpenAI(model='gpt-4o-2024-05-13')
 
 
 def extract_project_info(payload):
@@ -145,15 +146,15 @@ def formulate_question(project_details, cost_info, historical_data):
                                 f"  Range Price: {item['range_price']}\n")
 
     question = f"""
-   Project Overview:
+    Project Overview:
 
-You are provided with the following project details:
+    You are provided with the following project details:
 
     Project Details: {project_details}
     Cost Information: {cost_info}
     Historical Data: {historical_info}
 
-    just try to be approximate to the historcal data costs in total and breakdown and reply with the same way as the breakdown is formated but don't make it exact 100%
+    Just try to be approximate to the historical data costs in total and breakdown and reply with the same way as the breakdown is formatted but don't make it exact 100%.
     """
     return question
 
@@ -169,9 +170,9 @@ def chat_completion(messages, api_key):
     Returns:
         str: Response from the language model.
     """
-    response = ChatCompletion.create(
+    openai.api_key = api_key
+    response = openai.ChatCompletion.create(
         model="gpt-4o-2024-05-13",
-        messages=messages,
-        api_key=api_key
+        messages=messages
     )
     return response['choices'][0]['message']['content']
