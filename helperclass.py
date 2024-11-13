@@ -12,7 +12,7 @@ def load_historical_data():
     Returns:
         dict: Processed historical data categorized by work type and sub-category.
     """
-    csv_path = os.path.join(os.path.dirname(__file__), 'Final_Work_Categories_and_Price_Analysis.csv')
+    csv_path = os.path.join(os.path.dirname(__file__), 'detailed_breakdown_costs.csv')
     df = pd.read_csv(csv_path)
 
     historical_data = {}
