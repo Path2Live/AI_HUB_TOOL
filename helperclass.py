@@ -1,116 +1,65 @@
-from langchain.document_loaders import PyPDFLoader
-from langchain.llms import OpenAI
-from openai import ChatCompletion
+from langchain_community.document_loaders import PyPDFLoader
+import openai
 import pandas as pd
 import os
 
 
-def load_historical_data():
-    """
-    Loads and processes historical data from a CSV file.
+class DataLoader:
+    @staticmethod
+    def load_historical_data(csv_filename='detailed_breakdown_costs.csv'):
+        """
+        Loads and processes historical data from a CSV file.
 
-    Returns:
-        dict: Processed historical data categorized by work type and sub-category.
-    """
-    csv_path = os.path.join(os.path.dirname(__file__), 'detailed_breakdown_costs.csv')
-    df = pd.read_csv(csv_path)
+        Returns:
+            dict: Processed historical data categorized by work type and sub-category.
+        """
+        csv_path = os.path.join(os.path.dirname(__file__), csv_filename)
+        df = pd.read_csv(csv_path)
 
-    historical_data = {}
-    for _, row in df.iterrows():
-        category = row['category']
-        sub_category = row['sub-category']
-        unit = row['Unit']
-        avg_price = row['average_price']
-        range_price = row['range_price']
+        historical_data = df.groupby('Category').apply(lambda group: group.to_dict('records')).to_dict()
+        return historical_data
 
-        if category not in historical_data:
-            historical_data[category] = []
+    @staticmethod
+    def load_pdf_contents(pdf_paths):
+        """
+        Loads contents from a list of PDF files.
 
-        historical_data[category].append({
-            'sub_category': sub_category,
-            'unit': unit,
-            'avg_price': avg_price,
-            'range_price': range_price
-        })
+        Args:
+            pdf_paths (list): List of paths to PDF files.
 
-    return historical_data
-
-
-def load_pdf_contents(pdf_paths):
-    """
-    Loads contents from a list of PDF files.
-
-    Args:
-        pdf_paths (list): List of paths to PDF files.
-
-    Returns:
-        str: Concatenated content of all PDF files.
-    """
-    documents_content = ""
-    for pdf in pdf_paths:
-        try:
-            loader = PyPDFLoader(pdf)
-            document = loader.load()
-            for page in document:
-                documents_content += page.page_content + "\n"
-        except Exception as e:
-            print(f"Error loading PDF {pdf}: {e}")
-    return documents_content
-
-
-def setup_llm(api_key):
-    """
-    Sets up the language model with the provided API key.
-
-    Args:
-        api_key (str): OpenAI API key.
-
-    Returns:
-        OpenAI: Configured language model.
-    """
-    return OpenAI(model='gpt-4o-2024-05-13', openai_api_key=api_key)
+        Returns:
+            str: Concatenated content of all PDF files.
+        """
+        documents_content = ""
+        for pdf in pdf_paths:
+            try:
+                loader = PyPDFLoader(pdf)
+                document = loader.load()
+                documents_content += "\n".join(page.page_content for page in document) + "\n"
+            except Exception as e:
+                print(f"Error loading PDF {pdf}: {e}")
+        return documents_content
 
 
 def extract_project_info(payload):
     """
     Extracts project information from a given payload.
-
-    Args:
-        payload (list): List of dictionaries containing project details.
-
-    Returns:
-        dict: Extracted project information.
     """
-    project_info = {}
-    for item in payload:
-        question = item["question"]
-        answer = item["answer"]
-        if "Project Type" in question:
-            project_info["work_type"] = answer
-        elif "gross internal area" in question:
-            project_info["gross_internal_area"] = answer
-        elif "expected finishes and materials" in question:
-            project_info["expected_finishes"] = answer
-        elif "site-specific conditions" in question:
-            project_info["site_conditions"] = answer
-    return project_info
+    keys = {
+        "Project Type": "work_type",
+        "gross internal area": "gross_internal_area",
+        "expected finishes and materials": "expected_finishes",
+        "site-specific conditions": "site_conditions"
+    }
+    return {v: item["answer"] for item in payload if (v := keys.get(item["question"]))}
 
 
 def extract_cost_info(payload):
     """
     Extracts cost information from a given payload.
-
-    Args:
-        payload (list): List of dictionaries containing cost details.
-
-    Returns:
-        dict: Extracted cost information.
     """
-    cost_info = {}
-    for section in payload:
-        section_name = section["name"]
-        items = section["generic"] + section["specific"]
-        cost_info[section_name] = [
+    return {
+        section["name"]: [
             {
                 "title": item["title"],
                 "isChecked": item["isChecked"],
@@ -118,43 +67,36 @@ def extract_cost_info(payload):
                 "quantity": item.get("quantity"),
                 "rate": item.get("rate")
             }
-            for item in items if item["isChecked"]
+            for item in section["generic"] + section["specific"] if item["isChecked"]
         ]
-    return cost_info
+        for section in payload
+    }
 
 
 def formulate_question(project_details, cost_info, historical_data):
     """
     Formulates a question for the language model based on project and cost details.
-
-    Args:
-        project_details (dict): Dictionary containing project details.
-        cost_info (dict): Dictionary containing cost details.
-        historical_data (dict): Dictionary containing historical cost data.
-
-    Returns:
-        str: Formulated question.
     """
-    historical_info = ""
-    for category, items in historical_data.items():
-        historical_info += f"{category}:\n"
-        for item in items:
-            historical_info += (f"  Sub-category: {item['sub_category']}\n"
-                                f"  Unit: {item['unit']}\n"
-                                f"  Average Price: {item['avg_price']}\n"
-                                f"  Range Price: {item['range_price']}\n")
+    historical_info = "\n".join(
+        f"{category}:\n" + "\n".join(
+            f"  Qty: {item['Qty']}\n  Unit: {item['Unit']}\n  Rate (£): {item['Rate (£)']}\n  Total Cost (£): {item['Total Cost (£)']}"
+            for item in items
+        )
+        for category, items in historical_data.items()
+    )
 
     question = f"""
-   Project Overview:
-
-You are provided with the following project details:
-
-    Project Details: {project_details}
-    Cost Information: {cost_info}
+    
     Historical Data: {historical_info}
 
-    just try to be approximate to the historcal data costs in total and breakdown and reply with the same way as the breakdown is formated but don't make it exact 100%
+    give the total of each category of the Historical Data:
+    1- make all your number rounded to whole number like hundreds no units or tens 
+    2- give the total of them all 
+    3-don't pass 110K in your approximation 
+    4- dont reply with any other words around your answer
+     
     """
+    print(question)
     return question
 
 
@@ -169,9 +111,9 @@ def chat_completion(messages, api_key):
     Returns:
         str: Response from the language model.
     """
-    response = ChatCompletion.create(
-        model="gpt-4o-2024-05-13",
-        messages=messages,
-        api_key=api_key
+    openai.api_key = api_key
+    response = openai.ChatCompletion.create(
+        model="gpt-4",  # Specify model name
+        messages=messages
     )
     return response['choices'][0]['message']['content']
