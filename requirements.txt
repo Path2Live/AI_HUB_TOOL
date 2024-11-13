@@ -1,8 +1,8 @@
-python-dotenv
-flask_cors
 Flask
-langchain>=0.0.10  # Latest stable version with core functionality
-langchain-community>=0.2.0  # Community version for updated document loaders
-openai==0.28  # Specific version requested for OpenAI API client
-pypdf  # For PDF handling within LangChain or standalone
-pandas>=1.3.0  # For CSV and data manipulation
+flask_cors
+langchain-community>=0.2.0
+langchain-openai>=0.2.0
+openai==0.27.0
+pandas
+pypdf
+python-dotenv
