@@ -153,59 +153,7 @@ You are provided with the following project details:
     Cost Information: {cost_info}
     Historical Data: {historical_info}
 
-Your task is to analyze the provided architectural drawings and documents, following these specific instructions:
-1. Elevations (Files Containing Elevations)
-
-    Identify and list the materials used for each elevation (North, South, East, and West).
-    Use the labels beside each material name to ensure accuracy.
-
-2. Floor Plan (Files Containing Floor Plans)
-
-    Locate the floor measurements on the drawing.
-    Use the label beside "scale" to determine the real-life to image scale ratio, followed by the paper size.
-    Calculate the area of each room, the total area of the floor plan, and identify any new construction, particularly those indicated by blue-colored walls.
-
-3. Roof Plan (Files Containing Roof Plans)
-
-    Detect any extensions (represented as side boxes covered in stripes) and calculate their area.
-
-4. Feasibility Estimate (Files Containing Feasibility Estimate)
-
-    Based on the project's cost details and historical data:
-        AI-Driven Costing: If a subcategory mentions using AI, estimate the cost of the required work based on the provided drawings.
-        Generate a detailed, itemized cost breakdown for the new project, considering average prices from past projects.
-        The breakdown should cover all major categories, including but not limited to:
-            Demolition
-            Substructure
-            Superstructure
-            Roof
-            External Windows and Doors
-            Partitions
-            Electrical
-            Mechanical
-            Preliminaries
-
-Cost Calculations Methodology:
-
-    Quantification: Use construction drawings, specifications, and BIM (Building Information Modeling) software to quantify materials and labor.
-    Unit Rates: Apply unit rates (cost per unit of measure) from cost databases or historical data.
-    Summation: Sum the costs for each category (materials, labor, equipment) to arrive at the total cost.
-    Contingencies: Include a percentage for contingencies to cover unforeseen costs.
-    Overheads and Profits: Add a percentage for overheads and profits.
-
-Final Output:
-
-Your final response should include the following sections:
-
-    Elevations: Detail the materials used for North, South, East, and West elevations.
-    Floor Plan: Provide the scale, area calculations for each room, total area, and details of any new construction (highlighted in blue).
-    Roof Plan: Detail any extensions identified in the roof plan.
-    Feasibility Estimate: Provide a cost estimate summary, including a breakdown of costs for demolition, substructure, superstructure, etc., and a total excluding VAT.
-
-Important Notes:
-
-    Do not use external sources; base your analysis solely on the provided information.
-    Follow the project details and cost Information carefully as they outline the scope and specifics of the work to be done.
+    just try to be approximate to the historcal data costs in total and breakdown and reply with the same way as the breakdown is formated but don't make it exact 100%
     """
     return question
 
