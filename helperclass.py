@@ -90,11 +90,12 @@ def formulate_question(project_details, cost_info, historical_data):
     Historical Data: {historical_info}
 
     give the total of each category of the Historical Data:
-    1- make all your number rounded to whole number like hundreds no units or tens 
+    1- make all your number rounded to whole number.
     2- give the total of them all 
     3-don't pass 110K in your approximation 
     4- dont reply with any other words around your answer
     5-start your reply with "according to the estimations"
+    6- make your reply as points
      
     """
     print(question)
